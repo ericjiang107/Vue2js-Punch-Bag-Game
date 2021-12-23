@@ -1,0 +1,29 @@
+#bagImage {
+    width: 200px;
+    height: 500px;
+    /* to centralize something, 0 auto works */
+    margin: 0 auto;
+    background: url(/img/bag.png) center no-repeat;
+    background-size: 80%;
+}
+
+#bagImage.gameReset {
+    background: url(/img/bag-burst.png) center no-repeat;
+    background-size: 80%;
+}
+
+#bag-health {
+    width: 200px;
+    border: 2px solid black;
+    margin: 0 auto 20px auto;
+}
+
+#bag-health div {
+    height: 20px;
+    background: crimson;
+}
+
+#controls {
+    width: 120px;
+    margin: 0 auto;
+}
